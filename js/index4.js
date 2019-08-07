@@ -1,6 +1,6 @@
-var FirstName='Ubeydullah';
-var LastName='Abdiweli';
-var Age=32;
-var DateOfBirth='01/01/1987';
-var Address='393 kennedy street';
+var firstName='Ubeydullah';
+var lastName='Abdiweli';
+var age=32;
+var dateOfBirth='10/10/1987';
+var address='393 kennedy street';
 
