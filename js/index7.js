@@ -8,4 +8,4 @@ console.log('firstName:' ,firstName);
 console.log('lastName:' ,lastName);
 console.log('age:', age);
 console.log('dateOfBirth:' ,dateOfBirth);
-console.log('address',address);
+console.log('address:',address);

@@ -1,7 +1,7 @@
-var FirstName, LastName, Age, DateOfBirth, Address;
-FirstName= 'Ubeydullah';
-LastName= 'Abdiweli';
-Age= 32;
-DateOfBirth= '10/10/1987';
-Address= '393 Kennedy Street';
+var firstName, lastName, age, dateOfBirth, address;
+firstName= 'Ubeydullah';
+lastName= 'Abdiweli';
+age= 32;
+dateOfBirth= '10/10/1987';
+address= '393 Kennedy Street';
 
