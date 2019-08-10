@@ -1,9 +1,9 @@
-let superHeroName='Batman';
-let name='Burce Wayne';
-let fly=false;
-let hasBatmobile= true;
-let life= 50;
-let freeTime= null;
+const superHeroName='Batman';
+const name='Burce Wayne';
+const fly=false;
+const hasBatmobile= true;
+const life= 50;
+const freeTime= null;
 console.log('superHeroName:',superHeroName);
 console.log('name:', name)
 console.log('fly:',fly);

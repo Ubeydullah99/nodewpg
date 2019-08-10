@@ -1,9 +1,9 @@
-let city='Winnipeg';
-let district='Central';
-let addressNumber=360;
-let residence=true;
-let permanentResident=undefined;
-let postalCode=null;
+const city='Winnipeg';
+const district='Central';
+const addressNumber=360;
+const residence=true;
+const permanentResident=undefined;
+const postalCode=null;
 
 console.log('city:',city);
 console.log('district:', district);

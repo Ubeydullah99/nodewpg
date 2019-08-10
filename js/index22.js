@@ -1,7 +1,7 @@
-let done= true;
-let married= false;
-let logged= false;
-let likesJS=true;
+const done= true;
+const married= false;
+const logged= false;
+const likesJS=true;
 console.log('done', done);
 console.log('married', married);
 console.log('logged', logged);

@@ -1,2 +1,2 @@
-let message= 'I <3 Javascript!!';
+const message= 'I <3 Javascript!!';
 console.log(message);

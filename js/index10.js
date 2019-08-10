@@ -1,2 +1,2 @@
-let message='JavaScript Rocks!!!';
+const message='JavaScript Rocks!!!';
 console.log(message);

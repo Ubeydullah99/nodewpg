@@ -1,4 +1,4 @@
-let number= 9;
+const number= 9;
 console.log(`${number} times 1 equals ${number*1}`);
 console.log(`${number} times 2 equals ${number*2}`);
 console.log(`${number} times 3 equals ${number*3}`);
