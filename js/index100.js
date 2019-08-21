@@ -2,5 +2,6 @@ function number() {
     if (even){
         
     }
-    console.log();
+    console.log(number);
 }
+number();
