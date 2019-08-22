@@ -1,4 +1,4 @@
-let iceCreamFlavors=[];
+let iceCreamFlavors = [];
 
 iceCreamFlavors.push('strawberry');
 iceCreamFlavors.push('Butter');

@@ -1,4 +1,4 @@
-let iceCreamFlavors=['strawberry','Butter','Cookies','chocolate','min','cream','Green tea','Butter','Chip','Rocky'];
+let iceCreamFlavors = ['strawberry', 'Butter', 'Cookies', 'chocolate', 'min', 'cream', 'Green tea', 'Butter', 'Chip', 'Rocky'];
 
 iceCreamFlavors.shift();
 iceCreamFlavors.shift();

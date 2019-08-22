@@ -54,11 +54,11 @@ switch (monthNumber) {
         monthDays = '31 Days';
         break;
     default:
-        message='Error: input a number between 1 and 12';
+        message = 'Error: input a number between 1 and 12';
         break;
 }
-if(monthName==null && monthDays==null){
+if (monthName == null && monthDays == null) {
     console.log(message);
-}else{
+} else {
     console.log(`${monthName} is the selected month and has ${monthDays}`);
 }

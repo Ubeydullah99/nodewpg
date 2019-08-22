@@ -1,15 +1,15 @@
-const superHeroName='Batman';
-const name='Burce Wayne';
-const fly=false;
-const hasBatmobile= true;
-const life= 50;
-const freeTime= null;
-console.log('superHeroName:',superHeroName);
+const superHeroName = 'Batman';
+const name = 'Burce Wayne';
+const fly = false;
+const hasBatmobile = true;
+const life = 50;
+const freeTime = null;
+console.log('superHeroName:', superHeroName);
 console.log('name:', name)
-console.log('fly:',fly);
-console.log('hasBatmobile:',hasBatmobile);
-console.log('life:',life);
-console.log('freeTime:',freeTime);
+console.log('fly:', fly);
+console.log('hasBatmobile:', hasBatmobile);
+console.log('life:', life);
+console.log('freeTime:', freeTime);
 console.log(typeof superHeroName);
 console.log(typeof name);
 console.log(typeof fly);

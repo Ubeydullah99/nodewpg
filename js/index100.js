@@ -1,6 +1,6 @@
 function number() {
-    if (even){
-        
+    if (even) {
+
     }
     console.log(number);
 }

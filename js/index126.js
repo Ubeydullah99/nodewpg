@@ -1,4 +1,4 @@
-let iceCreamFlavors=[];
+let iceCreamFlavors = [];
 
 iceCreamFlavors.unshift('strawberry');
 iceCreamFlavors.unshift('Butter');

@@ -1,9 +1,9 @@
-let number=0;
+let number = 0;
 
 
 do {
     console.log(number);
     number++
-}while (number <= 100){
-    
+} while (number <= 100) {
+
 }

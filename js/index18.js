@@ -1,3 +1,3 @@
-const store="Gianu's";
-const message="it's the best store";
+const store = "Gianu's";
+const message = "it's the best store";
 console.log(store.concat(' ', message));

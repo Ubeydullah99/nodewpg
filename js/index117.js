@@ -1,4 +1,4 @@
-const students=['Hugo', 'Simon', 'Jwan', 'Farah', 'Chris'];
+const students = ['Hugo', 'Simon', 'Jwan', 'Farah', 'Chris'];
 
 console.log(students);
 console.log(students[0]);

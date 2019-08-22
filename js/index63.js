@@ -7,7 +7,7 @@ switch (year) {
         champion = 'Carolina Hurricanes';
         break;
     case 2007:
-        champion ='Anaheim Ducks';
+        champion = 'Anaheim Ducks';
         break;
     case 2008:
         champion = 'Detroit Red Wings ';
@@ -44,7 +44,7 @@ switch (year) {
 }
 if (year < 2006 || year > 2017) {
     console.log(`${message} Sorry, please try a different year`);
-} else{
+} else {
     console.log(`${champion} was the ${year} NHL Champion`);
 }
 
