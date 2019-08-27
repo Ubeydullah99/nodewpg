@@ -1,8 +1,10 @@
 const groot = {
-    greet: 'I\'m Groot',
+    greet: function(){
+    return 'I\'m Groot!!';
+},
     speak: function () {
-        return 'I\'m Groot';
-    }
+        return 'I\'m Groot!!';
+},
 }
-console.log(groot);
-groot();
+console.log(`Greet: ${groot.greet()}`);
+console.log(`Speak: ${groot.speak()}`);
