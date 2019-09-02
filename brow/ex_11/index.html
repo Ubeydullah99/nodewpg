@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        
+        const userName=prompt('Please input your name');
+        const password=prompt('Please input your password');
+       const message=`${userName} Do you still want to be logged?`;
+       const confirmation= setTimeout(confirm,10000,message);
+       setTimeout(confirmation);
+       if (confirmation){
+          alert(`${userName} your session has been `); 
+       } else{
+           alert(`${userName} your session has expaired`);
+       }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

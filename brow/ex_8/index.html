@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        let result = 0;
+        let count = 0;
+        alert('This program add all the numbers you input');
+        let approve = confirm('Do you like to start?');
+        if (approve) {
+            do {
+                let number = prompt('Please input a number');
+                if (typeof (parseInt(number)) === 'number') {
+                    result = result + parseInt(number);
+                    alert(`The result so far is:${result}`);
+                } else {
+                    alert('Please make sure that you entered a number ');
+                }
+            } while (confirm('Do you like to continue'));
+            let average = result / count;
+            alert(`The final result is:${result}\n
+            The user input ${count} numbers\n
+            The average is: ${average}`);
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
