@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        window.onload = function () {
+            const bodyElement = document.querySelector('body');
+            console.log(bodyElement);
+            const h1Element = document.createElement('h1');
+            h1Element.innerText = 'Create Dynamic content!!!';
+            h1Element.style.color='green'
+            const pElement=document.createElement('p');
+            pElement.innerText='This elements were created using JavaScript';
+            pElement.style.color='blue';
+            document.body.appendChild(h1Element);
+            document.body.appendChild(pElement);
+        }
+    </script>
+    <title>It's all JavaScript Baby!!</title>
+</head>
+
+<body>
+</body>
+
+</html>

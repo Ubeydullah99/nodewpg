@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script>
-        window.onload=
-    </script>
+  <script>
+    window.onload = function () {
+      const ul = document.querySelector('ul');
+      const children = ul.children;
+      const firstChild = children[0];
+      firstChild.setAttribute('class', 'orange');
+      const thirdChild = children[2];
+      thirdChild.setAttribute('class', 'orange');
+      thirdChild.nextElementSibling.setAttribute('class', 'orange');
+      thirdChild.previousElementSibling.setAttribute('class', 'orange');
+      const lastChild = children[4];
+      lastChild.setAttribute('class', 'orange');
+      thirdChild.setAttribute('class', 'red');
+      firstChild.setAttribute('class', 'green');
+    }   
+  </script>
   <title>Elements</title>
   <style>
     .red {
       color: red;
     }
-    
+
     .green {
       color: green;
     }
-    
+
     .orange {
       color: orange;
     }
   </style>
 </head>
+
 <body>
   <ul>
     <li>Item 1</li>
@@ -28,4 +43,5 @@
     <li>Item 5</li>
   </ul>
 </body>
+
 </html>
