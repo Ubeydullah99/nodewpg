@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        const number1 = prompt(`How many seconds do you like to stay here?`);
+        let number = 5;
+        const message = () => {
+            console.log(`You have been here for ${number} seconds`);
+            number += 5;
+            if (number == number1) {
+                clearInterval(id);
+                console.log('Your session has expired, come again soon');
+            }
+        }
+        const id = setInterval(message, 5000);
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
