@@ -8,10 +8,12 @@
             console.log(bodyElement);
             const ulElement = document.createElement('ul');
             const names = ['Abdi', 'Hussein', 'Nico', 'Soma', 'Sina', 'kalay', 'Jwan', 'Jiji', 'Farah', 'Fatuma'];
-            names.forEach(name) => {
-                const listItems=document.createElement('li');
-                
-            }
+            names.forEach(function (name) {
+                const listItems = document.createElement('li');
+                listItems.innerHTML = name;
+                ulElement.appendChild(listItems);
+                document.body.appendChild(ulElement);
+            });
         }
     </script>
     <title>It's all JavaScript Baby!!</title>
